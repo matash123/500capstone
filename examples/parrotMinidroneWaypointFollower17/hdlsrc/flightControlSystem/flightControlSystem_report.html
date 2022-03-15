@@ -1,0 +1,917 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="https://www.mathworks.com/help/schema/MathWorksDocPage">
+<head>
+<title>HDL Check Report for 'flightControlSystem'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript" src="file://C:/Program%20Files/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="file://C:/Program%20Files/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/docscripts.js"></script>
+        
+        <link href="file://C:/Program%20Files/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_960.css" rel="stylesheet" type="text/css">
+        <link href="file://C:/Program%20Files/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/HDLsite5.css" rel="stylesheet" type="text/css">
+        <link href="file://C:/Program%20Files/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_doc_center.css" rel="stylesheet" type="text/css">
+        <link href="file://C:/Program%20Files/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_doc_center_installed.css" rel="stylesheet" type="text/css">
+        <link href="file://C:/Program%20Files/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_doc_center_print.css" rel="stylesheet" type="text/css" media="print">
+        <script type="text/javascript">
+            if (navigator.appName != "ICEbrowser") {
+            var cssStyleSheets = $("link").filter(function(){
+            var href = $(this).attr('href');
+            return href.indexOf("ice_doc_center_print.css") == -1});
+            var hrefElements = $.map(cssStyleSheets, function(elem) {
+            var href = $(elem).attr('href');
+            var hrefArray = href.split("/");
+            hrefArray[hrefArray.length - 1] = hrefArray[hrefArray.length - 1].replace("ice_", "");
+            return {
+            href: hrefArray.join("/"),
+            media: $(elem).attr('media')
+            };
+            });
+            cssStyleSheets.remove();
+            for (var i = 0; i < hrefElements.length; i++) {
+            if ($.browser.msie && $.browser.version <= 8) {
+            document.createStyleSheet(hrefElements[i].href);
+            } else {
+            var link = $('<link rel="stylesheet" href=' + hrefElements[i].href + ' type="text/css" />');
+            if (hrefElements[i].media) {
+            link.attr('media', hrefElements[i].media);
+            }
+            $('head').append(link);
+            }
+            }
+            }
+    </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div class="container_192">
+<div class="grid_192">
+ <div class="page_container"><div class="content_frame">
+<h1>HDL Code Generation Check Report for 'flightControlSystem'
+<a href="matlab:open_system('flightControlSystem');">open model 'flightControlSystem'</a><BR>
+Generated on 2022-03-15 12:45:08</h1>
+<H2>HDL check for 'flightControlSystem' complete with 112 errors, 18 warnings, and 0 messages.</H2><BR>
+<H3>The following table describes blocks for which errors, warnings or messages were reported.</H3><BR>
+<TABLE>
+<TR><TD> <B>Simulink Blocks and resources</B> </TD><TD> <B>Level</B> </TD><TD> <B>Description</B> </TD></TR><TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 67 111 110 116 114 111 108 77 105 120 101 114 47 77 97 110 117 97 108 32 83 119 105 116 99 104]))">flightControlSystem/Flight Control System/Controller/ControlMixer/Manual Switch</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/Controller/ControlMixer/Manual Switch' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 67 111 110 116 114 111 108 77 105 120 101 114 47 86 97 114 105 97 110 116 32 83 111 117 114 99 101]))">flightControlSystem/Flight Control System/Controller/ControlMixer/Variant Source</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/Controller/ControlMixer/Variant Source' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 73 102 32 65 99 116 105 111 110 10 83 117 98 115 121 115 116 101 109 47 84 111 32 77 117 108 116 105 109 101 100 105 97 32 70 105 108 101 49]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/If Action
+Subsystem/To Multimedia File1</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/Path Planning/Waypoint follower/If Action Subsystem/To Multimedia File1' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checkEnable/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 82 101 115 101 116 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checkReset/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checkReset/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checku/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checku/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checky/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checky/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 79 117 116 108 105 101 114 72 97 110 100 108 105 110 103 47 112 114 101 115 115 117 114 101 70 105 108 116 101 114 95 73 73 82]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/OutlierHandling/pressureFilter_IIR</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/OutlierHandling/pressureFilter_IIR' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 79 117 116 108 105 101 114 72 97 110 100 108 105 110 103 47 115 111 110 97 114 70 105 108 116 101 114 95 73 73 82]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/OutlierHandling/sonarFilter_IIR</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/OutlierHandling/sonarFilter_IIR' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checkEnable/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checku/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checku/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checky/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checky/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checkEnable/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checku/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checku/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checky/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checky/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 83 101 110 115 111 114 80 114 101 112 114 111 99 101 115 115 105 110 103 47 73 73 82 95 73 77 85 103 121 114 111 95 114]))">flightControlSystem/Flight Control System/State Estimator/SensorPreprocessing/IIR_IMUgyro_r</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/SensorPreprocessing/IIR_IMUgyro_r' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 83 101 110 115 111 114 80 114 101 112 114 111 99 101 115 115 105 110 103 47 84 101 109 112 101 114 97 116 117 114 101 32 67 111 109 112 101 110 115 97 116 105 111 110 47 68 105 115 97 98 108 101 32 116 101 109 112 101 114 97 116 117 114 101 10 99 111 109 112 101 110 115 97 116 105 111 110]))">flightControlSystem/Flight Control System/State Estimator/SensorPreprocessing/Temperature Compensation/Disable temperature
+compensation</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/SensorPreprocessing/Temperature Compensation/Disable temperature compensation' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 68 97 116 97 72 97 110 100 108 105 110 103 47 68 105 115 99 114 101 116 101 68 101 114 105 118 97 116 105 118 101 47 84 83 97 109 112]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/DataHandling/DiscreteDerivative/TSamp</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/DataHandling/DiscreteDerivative/TSamp' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 68 97 116 97 72 97 110 100 108 105 110 103 47 73 73 82 103 121 114 111 122]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/DataHandling/IIRgyroz</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/DataHandling/IIRgyroz' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checkEnable/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checku/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checku/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checky/CheckSignalProperties</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checky/CheckSignalProperties' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcommon:nativefloatingpoint:SingleShouldUseNFP" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109]))">flightControlSystem/Flight Control System</a>
+</TD>
+<TD>Error</TD>
+<TD>Signals of type 'Single' will not generate synthesizable HDL. For synthesizable HDL code, <a href="matlab:configset.internal.open('flightControlSystem','FloatingPointTargetConfiguration')">set the "Library" option to "Native Floating Point"</a>. For non-synthesizable and simulation-only HDL code, <a href="matlab:configset.internal.open('flightControlSystem','TreatRealsInGeneratedCodeAs')">set the "Check for presence of reals in generated HDL code" diagnostic to "Warning" or "None"</a>.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcommon:nativefloatingpoint:DoubleShouldUseNFP" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 87 97 105 116 32 32 51 32 83 101 99 111 110 100 115]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Wait  3 Seconds</a>
+</TD>
+<TD>Error</TD>
+<TD>Signals of type 'Double' will not generate synthesizable HDL. For synthesizable HDL code, <a href="matlab:configset.internal.open('flightControlSystem','FloatingPointTargetConfiguration')">set the "Library" option to "Native Floating Point"</a>. For non-synthesizable and simulation-only HDL code, <a href="matlab:configset.internal.open('flightControlSystem','TreatRealsInGeneratedCodeAs')">set the "Check for presence of reals in generated HDL code" diagnostic to "Warning" or "None"</a>.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="HDLShared:hdlshared:MultirateMultiTasking" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');open_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]))">flightControlSystem</a>
+</TD>
+<TD>Error</TD>
+<TD>To guarantee data integrity in generated HDL code, set the "Multitask data transfer" and "Single task data transfer" options to "Error" on the Diagnostics > Sample Time pane of the Configuration Parameters dialog box. Additionally on the Solver pane, set the Solver type to "Fixed-step" and, in the Solver details > Tasking and sample time options group select "Treat each discrete rate as a separate task".</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:MatrixPortUnsupported" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 73 109 97 103 101 32 68 97 116 97]))">flightControlSystem/Image Data</a>
+</TD>
+<TD>Error</TD>
+<TD>DUT port 'Image Data' is a matrix type. Matrix types are not supported at the DUT interface. Consider using a 'Reshape' block to pass this signal through the DUT interface.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:illegalconversiondtc" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 65 116 116 105 116 117 100 101 32 67 111 110 116 114 111 108 108 101 114 47 65 110 103 117 108 97 114 32 118 101 108 111 99 105 116 121 32 99 111 110 116 114 111 108 32 108 111 111 112 47 65 110 116 105 45 119 105 110 100 117 112 47 68 105 115 99 46 32 67 108 97 109 112 105 110 103 32 80 97 114 97 108 108 101 108 47 68 97 116 97 84 121 112 101 67 111 110 118 49]))">flightControlSystem/Flight Control System/Controller/Attitude Controller/Angular velocity control loop/Anti-windup/Disc. Clamping Parallel/DataTypeConv1</a>
+</TD>
+<TD>Error</TD>
+<TD>Illegal conversion to/from floating point and fixed-point in flightControlSystem/Flight Control System/Controller/Attitude Controller/Angular velocity control loop/Anti-windup/Disc. Clamping Parallel/DataTypeConv1. Consider selecting 'Native Floating Point' as the Floating Point IP Library to enable this conversion.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:illegalconversiondtc" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 65 116 116 105 116 117 100 101 32 67 111 110 116 114 111 108 108 101 114 47 65 110 103 117 108 97 114 32 118 101 108 111 99 105 116 121 32 99 111 110 116 114 111 108 32 108 111 111 112 47 65 110 116 105 45 119 105 110 100 117 112 47 68 105 115 99 46 32 67 108 97 109 112 105 110 103 32 80 97 114 97 108 108 101 108 47 68 97 116 97 84 121 112 101 67 111 110 118 50]))">flightControlSystem/Flight Control System/Controller/Attitude Controller/Angular velocity control loop/Anti-windup/Disc. Clamping Parallel/DataTypeConv2</a>
+</TD>
+<TD>Error</TD>
+<TD>Illegal conversion to/from floating point and fixed-point in flightControlSystem/Flight Control System/Controller/Attitude Controller/Angular velocity control loop/Anti-windup/Disc. Clamping Parallel/DataTypeConv2. Consider selecting 'Native Floating Point' as the Floating Point IP Library to enable this conversion.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:unhandledvectorport" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 80 111 115 105 116 105 111 110 32 67 111 110 116 114 111 108 108 101 114 47 76 80 70 32 56 72 122 32 67 117 116 111 102 102 10 70 105 108 116 101 114 32 116 111 32 97 118 111 105 100 32 111 115 99 105 108 108 97 116 105 111 110 115 10 32 105 110 100 117 99 101 100 32 98 121 32 112 111 115 105 116 105 111 110 32 99 111 110 116 114 111 108 108 101 114]))">flightControlSystem/Flight Control System/Controller/Position Controller/LPF 8Hz Cutoff
+Filter to avoid oscillations
+ induced by position controller</a>
+</TD>
+<TD>Error</TD>
+<TD>Unhandled vector port 'HDL code generation is not supported for vector inputs and outputs'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:scalingBya0" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 80 111 115 105 116 105 111 110 32 67 111 110 116 114 111 108 108 101 114 47 76 80 70 32 56 72 122 32 67 117 116 111 102 102 10 70 105 108 116 101 114 32 116 111 32 97 118 111 105 100 32 111 115 99 105 108 108 97 116 105 111 110 115 10 32 105 110 100 117 99 101 100 32 98 121 32 112 111 115 105 116 105 111 110 32 99 111 110 116 114 111 108 108 101 114]))">flightControlSystem/Flight Control System/Controller/Position Controller/LPF 8Hz Cutoff
+Filter to avoid oscillations
+ induced by position controller</a>
+</TD>
+<TD>Error</TD>
+<TD>Divide by leading denominator coefficient(a0) for <a href="matlab:coder.internal.code2model('flightControlSystem:2336')" name="code2model" class="code2model">
+LPF 8Hz Cutoff
+Filter to avoid oscillations
+ induced by position controller
+</a>
+ is not supported for HDL code generation unless it is (positive or negative)one. Try using appropriate scaling using a separate gain block outside the block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:illegalconversiondtc" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 80 111 115 105 116 105 111 110 32 67 111 110 116 114 111 108 108 101 114 47 86 101 108 111 99 105 116 121 32 99 111 110 116 114 111 108 108 101 114 47 65 110 116 105 45 119 105 110 100 117 112 47 68 105 115 99 46 32 67 108 97 109 112 105 110 103 32 80 97 114 97 108 108 101 108 47 68 97 116 97 84 121 112 101 67 111 110 118 49]))">flightControlSystem/Flight Control System/Controller/Position Controller/Velocity controller/Anti-windup/Disc. Clamping Parallel/DataTypeConv1</a>
+</TD>
+<TD>Error</TD>
+<TD>Illegal conversion to/from floating point and fixed-point in flightControlSystem/Flight Control System/Controller/Position Controller/Velocity controller/Anti-windup/Disc. Clamping Parallel/DataTypeConv1. Consider selecting 'Native Floating Point' as the Floating Point IP Library to enable this conversion.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:illegalconversiondtc" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 111 110 116 114 111 108 108 101 114 47 80 111 115 105 116 105 111 110 32 67 111 110 116 114 111 108 108 101 114 47 86 101 108 111 99 105 116 121 32 99 111 110 116 114 111 108 108 101 114 47 65 110 116 105 45 119 105 110 100 117 112 47 68 105 115 99 46 32 67 108 97 109 112 105 110 103 32 80 97 114 97 108 108 101 108 47 68 97 116 97 84 121 112 101 67 111 110 118 50]))">flightControlSystem/Flight Control System/Controller/Position Controller/Velocity controller/Anti-windup/Disc. Clamping Parallel/DataTypeConv2</a>
+</TD>
+<TD>Error</TD>
+<TD>Illegal conversion to/from floating point and fixed-point in flightControlSystem/Flight Control System/Controller/Position Controller/Velocity controller/Anti-windup/Disc. Clamping Parallel/DataTypeConv2. Consider selecting 'Native Floating Point' as the Floating Point IP Library to enable this conversion.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 71 114 101 97 116 101 114 84 104 97 110]))">flightControlSystem/Flight Control System/Crash Prediction Flags/GreaterThan</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 73 102]))">flightControlSystem/Flight Control System/Crash Prediction Flags/If</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/Crash Prediction Flags/If' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 65 108 116 105 116 117 100 101 32 101 114 114 111 114 32 99 104 101 99 107 47 71 114 101 97 116 101 114 84 104 97 110 32 32]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Altitude error check/GreaterThan  </a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 71 101 111 102 101 110 99 105 110 103 32 101 114 114 111 114 47 65 99 116 105 111 110 32 80 111 114 116]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Geofencing error/Action Port</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Out1' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 78 111 32 111 112 116 105 99 97 108 32 102 108 111 119 32 47 65 99 116 105 111 110 32 80 111 114 116]))">flightControlSystem/Flight Control System/Crash Prediction Flags/No optical flow /Action Port</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Out1' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 78 111 114 109 97 108 32 99 111 110 100 105 116 105 111 110 10 32 97 110 100 32 108 97 110 100 105 110 103 47 65 99 116 105 111 110 32 80 111 114 116]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Normal condition
+ and landing/Action Port</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Out1' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:illegalconversiondtc" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 79 112 116 105 99 97 108 32 102 108 111 119 32 101 114 114 111 114 32 99 104 101 99 107 47 32 32 32]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Optical flow error check/   </a>
+</TD>
+<TD>Error</TD>
+<TD>Illegal conversion to/from floating point and fixed-point in flightControlSystem/Flight Control System/Crash Prediction Flags/Optical flow error check/   . Consider selecting 'Native Floating Point' as the Floating Point IP Library to enable this conversion.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:illegalconversiondtc" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 79 112 116 105 99 97 108 32 102 108 111 119 32 101 114 114 111 114 32 99 104 101 99 107 47 68 97 116 97 32 84 121 112 101 32 67 111 110 118 101 114 115 105 111 110 50]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Optical flow error check/Data Type Conversion2</a>
+</TD>
+<TD>Error</TD>
+<TD>Illegal conversion to/from floating point and fixed-point in flightControlSystem/Flight Control System/Crash Prediction Flags/Optical flow error check/Data Type Conversion2. Consider selecting 'Native Floating Point' as the Floating Point IP Library to enable this conversion.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 79 112 116 105 99 97 108 32 102 108 111 119 32 101 114 114 111 114 32 99 104 101 99 107 47 83 119 105 116 99 104 49]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Optical flow error check/Switch1</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 85 108 116 114 97 115 111 117 110 100 32 105 109 112 114 111 112 101 114 47 65 99 116 105 111 110 32 80 111 114 116]))">flightControlSystem/Flight Control System/Crash Prediction Flags/Ultrasound improper/Action Port</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Out1' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 67 114 97 115 104 32 80 114 101 100 105 99 116 105 111 110 32 70 108 97 103 115 47 101 115 116 105 109 97 116 111 114 47 47 79 112 116 105 99 97 108 10 102 108 111 119 32 101 114 114 111 114 47 65 99 116 105 111 110 32 80 111 114 116]))">flightControlSystem/Flight Control System/Crash Prediction Flags/estimator//Optical
+flow error/Action Port</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Out1' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:mixeddimensioninput" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 77 117 108 116 105 112 111 114 116 10 83 119 105 116 99 104]))">flightControlSystem/Flight Control System/Path Planning/Multiport
+Switch</a>
+</TD>
+<TD>Error</TD>
+<TD>All data inputs to the Multi Port Switch block must be of the same dimension.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 76 97 110 100 105 110 103 32 76 111 103 105 99 47 84 114 105 103 103 101 114 101 100 10 83 117 98 115 121 115 116 101 109 47 84 114 105 103 103 101 114]))">flightControlSystem/Flight Control System/Path Planning/Landing Logic/Triggered
+Subsystem/Trigger</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'X' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 76 97 110 100 105 110 103 32 76 111 103 105 99 47 84 114 105 103 103 101 114 101 100 10 83 117 98 115 121 115 116 101 109 47 84 114 105 103 103 101 114]))">flightControlSystem/Flight Control System/Path Planning/Landing Logic/Triggered
+Subsystem/Trigger</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Y' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:missingImplementation" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 73 102]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/If</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/Path Planning/Waypoint follower/If' is not supported for HDL code generation. To continue with code generation, comment out this block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 85 65 86 32 87 97 121 112 111 105 110 116 32 70 111 108 108 111 119 101 114]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/UAV Waypoint Follower</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:matrix:blocknotsupported" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 85 65 86 32 87 97 121 112 111 105 110 116 32 70 111 108 108 111 119 101 114]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/UAV Waypoint Follower</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Flight Control System/Path Planning/Waypoint follower/UAV Waypoint Follower' does not support matrix types on its ports for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'To controller' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Complete' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:triggerPortType" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 76 97 116 99 104 32 116 104 101 32 115 116 97 116 117 115 47 84 114 105 103 103 101 114]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/Latch the status/Trigger</a>
+</TD>
+<TD>Error</TD>
+<TD>The trigger port of an triggered subsystem must have a boolean or ufix1 type.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 80 97 116 104 32 80 108 97 110 110 105 110 103 47 87 97 121 112 111 105 110 116 32 102 111 108 108 111 119 101 114 47 76 97 116 99 104 32 116 104 101 32 115 116 97 116 117 115 47 84 114 105 103 103 101 114]))">flightControlSystem/Flight Control System/Path Planning/Waypoint follower/Latch the status/Trigger</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Out1' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 114 111 100 117 99 116 49]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Product1</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 83 117 109]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Sum</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 105 110 118 101 114 116 122 97 120 105 115 71 97 105 110]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/invertzaxisGain</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:IntDelayExternalResetClassic" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 77 101 109 111 114 121 88]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/MemoryX</a>
+</TD>
+<TD>Error</TD>
+<TD>Only 'Level' external reset mode on the Delay block is supported in 'Classic' mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:IntDelayIC" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 77 101 109 111 114 121 88]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/MemoryX</a>
+</TD>
+<TD>Error</TD>
+<TD>The initial condition for the Delay block must be specified via Dialog.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 79 98 115 101 114 118 101 114 47 77 101 97 115 117 114 101 109 101 110 116 85 112 100 97 116 101 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/Observer/MeasurementUpdate/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'L*(y[k]-yhat[k|k-1])' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 85 115 101 67 117 114 114 101 110 116 69 115 116 105 109 97 116 111 114 47 69 110 97 98 108 101 100 10 83 117 98 115 121 115 116 101 109 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/UseCurrentEstimator/Enabled
+Subsystem/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'deltax' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 79 117 116 108 105 101 114 72 97 110 100 108 105 110 103 47 65 100 100 49]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/OutlierHandling/Add1</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 49]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn11</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 50]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn12</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 51]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn13</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 49]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn21</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 50]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn22</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 51]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn23</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 49]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn31</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 50]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn32</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 51]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/Rotation Angles to
+Direction Cosine Matrix/Fcn33</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:TargetCodeGenInvalidTrigonometricFunction" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 84 114 105 103 111 110 111 109 101 116 114 105 99 10 70 117 110 99 116 105 111 110 49]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Trigonometric
+Function1</a>
+</TD>
+<TD>Error</TD>
+<TD>Trigonometric Function 'asin' is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:IntDelayIC" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 77 101 109 111 114 121 88]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/MemoryX</a>
+</TD>
+<TD>Error</TD>
+<TD>The initial condition for the Delay block must be specified via Dialog.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 79 98 115 101 114 118 101 114 47 77 101 97 115 117 114 101 109 101 110 116 85 112 100 97 116 101 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/Observer/MeasurementUpdate/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'L*(y[k]-yhat[k|k-1])' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 85 115 101 67 117 114 114 101 110 116 69 115 116 105 109 97 116 111 114 47 69 110 97 98 108 101 100 10 83 117 98 115 121 115 116 101 109 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/UseCurrentEstimator/Enabled
+Subsystem/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'deltax' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:produnsupportedrnd" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 68 105 118 105 100 101]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Divide</a>
+</TD>
+<TD>Error</TD>
+<TD>Product block with divide input (/) only supports Zero or Simplest rounding mode. When using Simplest rounding mode, set the "Signed integer division rounds to" parameter of your target hardware to either 'Zero' or 'Simplest'. This parameter is found in the Configuration Parameters Hardware Implementation pane.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:produnsupportedsat" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 68 105 118 105 100 101]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Divide</a>
+</TD>
+<TD>Error</TD>
+<TD>Product block with divide input (/) only supports Saturation "On".</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:TargetCodeGenInvalidTrigonometricFunction" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 84 114 105 103 111 110 111 109 101 116 114 105 99 10 70 117 110 99 116 105 111 110]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Trigonometric
+Function</a>
+</TD>
+<TD>Error</TD>
+<TD>Trigonometric Function 'atan' is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:IntDelayIC" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 77 101 109 111 114 121 88]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/MemoryX</a>
+</TD>
+<TD>Error</TD>
+<TD>The initial condition for the Delay block must be specified via Dialog.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 79 98 115 101 114 118 101 114 47 77 101 97 115 117 114 101 109 101 110 116 85 112 100 97 116 101 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/Observer/MeasurementUpdate/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'L*(y[k]-yhat[k|k-1])' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 85 115 101 67 117 114 114 101 110 116 69 115 116 105 109 97 116 111 114 47 69 110 97 98 108 101 100 10 83 117 98 115 121 115 116 101 109 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/UseCurrentEstimator/Enabled
+Subsystem/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'deltax' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:TargetCodeGenInvalidMathFunction" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 110 111 114 109 40 97 99 99 101 108 101 114 111 109 101 116 101 114 41 47 77 97 116 104 10 70 117 110 99 116 105 111 110]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/norm(accelerometer)/Math
+Function</a>
+</TD>
+<TD>Error</TD>
+<TD>Math Function 'pow' is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:TargetCodeGenInvalidSqrt" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 110 111 114 109 40 97 99 99 101 108 101 114 111 109 101 116 101 114 41 47 83 113 114 116]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/norm(accelerometer)/Sqrt</a>
+</TD>
+<TD>Error</TD>
+<TD>Sqrt is supported only in floating-point code generation mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:scalingBya0" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 83 101 110 115 111 114 80 114 101 112 114 111 99 101 115 115 105 110 103 47 76 80 70 32 70 99 117 116 111 102 102 32 61 32 52 48 72 122]))">flightControlSystem/Flight Control System/State Estimator/SensorPreprocessing/LPF Fcutoff = 40Hz</a>
+</TD>
+<TD>Error</TD>
+<TD>Divide by leading denominator coefficient(a0) for <a href="matlab:coder.internal.code2model('flightControlSystem:2522')" name="code2model" class="code2model">
+LPF Fcutoff = 40Hz
+</a>
+ is not supported for HDL code generation unless it is (positive or negative)one. Try using appropriate scaling using a separate gain block outside the block.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:scalingBya0" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 83 101 110 115 111 114 80 114 101 112 114 111 99 101 115 115 105 110 103 47 76 80 70 32 70 99 117 116 111 102 102 32 61 32 52 48 72 122 49]))">flightControlSystem/Flight Control System/State Estimator/SensorPreprocessing/LPF Fcutoff = 40Hz1</a>
+</TD>
+<TD>Error</TD>
+<TD>Divide by leading denominator coefficient(a0) for <a href="matlab:coder.internal.code2model('flightControlSystem:2523')" name="code2model" class="code2model">
+LPF Fcutoff = 40Hz1
+</a>
+ is not supported for HDL code generation unless it is (positive or negative)one. Try using appropriate scaling using a separate gain block outside the block.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nonZeroInitVal" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 83 101 110 115 111 114 80 114 101 112 114 111 99 101 115 115 105 110 103 47 84 101 109 112 101 114 97 116 117 114 101 32 67 111 109 112 101 110 115 97 116 105 111 110 47 84 114 105 103 103 101 114 101 100 10 83 117 98 115 121 115 116 101 109 47 84 114 105 103 103 101 114]))">flightControlSystem/Flight Control System/State Estimator/SensorPreprocessing/Temperature Compensation/Triggered
+Subsystem/Trigger</a>
+</TD>
+<TD>Error</TD>
+<TD>Subsystem output port 'Out1' must have an initial value of 0 for HDL code generation when in a subsystem with a Trigger, Enable, or Action port.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 65 100 100]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Add</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 80 114 111 100 117 99 116]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Product</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:produnsupported" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 80 114 111 100 117 99 116]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Product</a>
+</TD>
+<TD>Error</TD>
+<TD>Product block with more than two inputs is not supported.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 80 114 111 100 117 99 116 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Product1</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:mixeddoubleUnhandled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 103 97 105 110 97 99 99 105 110 112 117 116 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/gainaccinput1</a>
+</TD>
+<TD>Error</TD>
+<TD>The block does not support mixing double, single, half, and/or non-real types at the ports. Use either all the same floating point type or no floating point types.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn11</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 50]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn12</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 51]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn13</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn21</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 50]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn22</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 51]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn23</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn31</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 50]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn32</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 65 99 99 101 108 101 114 97 116 105 111 110 72 97 110 100 108 105 110 103 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 51]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/AccelerationHandling/Rotation Angles to
+Direction Cosine Matrix/Fcn33</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:IntDelayIC" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 77 101 109 111 114 121 88]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/MemoryX</a>
+</TD>
+<TD>Error</TD>
+<TD>The initial condition for the Delay block must be specified via Dialog.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 79 98 115 101 114 118 101 114 47 77 101 97 115 117 114 101 109 101 110 116 85 112 100 97 116 101 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/Observer/MeasurementUpdate/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'L*(y[k]-yhat[k|k-1])' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:heldOutputWhenDisabled" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 85 115 101 67 117 114 114 101 110 116 69 115 116 105 109 97 116 111 114 47 69 110 97 98 108 101 100 10 83 117 98 115 121 115 116 101 109 47 69 110 97 98 108 101]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/UseCurrentEstimator/Enabled
+Subsystem/Enable</a>
+</TD>
+<TD>Error</TD>
+<TD>Output port 'deltax' must have 'Output when disabled' set to 'held' for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn11</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 50]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn12</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 49 51]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn13</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn21</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 50]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn22</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 50 51]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn23</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 49]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn31</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 50]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn32</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:nfponlyblock" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 88 89 80 111 115 105 116 105 111 110 47 82 111 116 97 116 105 111 110 32 65 110 103 108 101 115 32 116 111 10 68 105 114 101 99 116 105 111 110 32 67 111 115 105 110 101 32 77 97 116 114 105 120 47 70 99 110 51 51]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorXYPosition/Rotation Angles to
+Direction Cosine Matrix/Fcn33</a>
+</TD>
+<TD>Error</TD>
+<TD>This block is supported only in native floating-point mode.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:matrix:blocknotsupported" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 73 109 97 103 101 32 80 114 111 99 101 115 115 105 110 103 32 83 121 115 116 101 109 47 80 65 82 82 79 84 32 73 109 97 103 101 32 67 111 110 118 101 114 115 105 111 110]))">flightControlSystem/Image Processing System/PARROT Image Conversion</a>
+</TD>
+<TD>Error</TD>
+<TD>Block 'flightControlSystem/Image Processing System/PARROT Image Conversion' does not support matrix types on its ports for HDL code generation.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:validate:UnsupportedAutoInsertRateTransition" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');open_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]))">flightControlSystem</a>
+</TD>
+<TD>Warning</TD>
+<TD>HDL Code Generation is not supported with implicit rate transitions. Consider turning off Simulink Solver setting <a href="matlab:configset.internal.open('flightControlSystem','AutoInsertRateTranBlk')">"Automatically handle rate transition for data transfer"</a> and detect such implicit transitions and add explicit rate conversion blocks with valid sample times.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:ReuseRequiresInvariantConstants" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');open_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]))">flightControlSystem</a>
+</TD>
+<TD>Warning</TD>
+<TD>HDL code from identical atomic subsystems can only be shared when the optimization configuration parameter 'Default parameter behavior' is set to 'Inlined'.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 82 101 115 101 116 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checkReset/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checku/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 108 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 75 97 108 109 97 110 70 105 108 116 101 114 95 97 108 116 105 116 117 100 101 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Altitude Estimator/KalmanFilter_altitude/checky/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checku/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 80 105 116 99 104 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Pitch_Kalman/Kalman Filter/checky/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checku/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 75 97 108 109 97 110 32 70 105 108 116 101 114 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Kalman Filter/checky/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 99 104 101 99 107 69 110 97 98 108 101 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checkEnable/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 99 104 101 99 107 117 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checku/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:engine:MissingBlkTag" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 88 89 32 80 111 115 105 116 105 111 110 32 69 115 116 105 109 97 116 111 114 47 69 115 116 105 109 97 116 111 114 86 101 108 111 99 105 116 121 47 75 97 108 109 97 110 70 105 108 116 101 114 95 100 120 100 121 47 99 104 101 99 107 121 47 67 104 101 99 107 83 105 103 110 97 108 80 114 111 112 101 114 116 105 101 115]))">flightControlSystem/Flight Control System/State Estimator/XY Position Estimator/EstimatorVelocity/KalmanFilter_dxdy/checky/CheckSignalProperties</a>
+</TD>
+<TD>Warning</TD>
+<TD>Could not find tag for the block 'CheckSignalProperties'.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="HDLShared:hdlshared:MultirateSolver" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');open_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]))">flightControlSystem</a>
+</TD>
+<TD>Warning</TD>
+<TD>HDL test bench generation for multirate models requires a fixed step, discrete solver in single tasking mode. In the Solver pane of the configuration parameters dialog box, ensure the solver type is set to "Fixed-step" and solver to "discrete". To configure the solver to single tasking mode, under Solver details, clear the options "Treat each discrete rate as a separate task" and "Automatically handle rate transition for data transfer".</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="HDLShared:hdlshared:AutoRateTransfer" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');open_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]))">flightControlSystem</a>
+</TD>
+<TD>Warning</TD>
+<TD>To guarantee data integrity in generated HDL code, turn off the option "Automatically handle rate transition for data transfer". You can set this option in Simulation -> Model Configuration Parameters -> Solver.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:validate:useshiftaddArch" href="matlab:hilite(get_param(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109]),'object'),'none');hilite_system(char([102 108 105 103 104 116 67 111 110 116 114 111 108 83 121 115 116 101 109 47 70 108 105 103 104 116 32 67 111 110 116 114 111 108 32 83 121 115 116 101 109 47 83 116 97 116 101 32 69 115 116 105 109 97 116 111 114 47 65 116 116 105 116 117 100 101 32 69 115 116 105 109 97 116 111 114 47 82 111 108 108 95 75 97 108 109 97 110 47 68 105 118 105 100 101]))">flightControlSystem/Flight Control System/State Estimator/Attitude Estimator/Roll_Kalman/Divide</a>
+</TD>
+<TD>Warning</TD>
+<TD>Consider setting the architecture to "ShiftAdd" for improved timing in hardware and synthesis compatibility.</TD>
+</TR>
+</TABLE>
+<BR><BR> </div></div></div></div>
+                    <div class="grid_192">
+                        <div class="footer_container">
+                            <div class="footer">
+                                <ul class="footernav">
+                                    <li class="footernav_trademarks"><a href="C:/Program Files/MATLAB/R2021b/help/acknowledgments.html">Acknowledgments</a></li>
+                                    <li class="footernav_trademarks"><a href="C:/Program%20Files/MATLAB/R2021b/trademarks.txt">Trademarks</a></li>
+                                    <li class="footernav_patents"><a href="C:/Program%20Files/MATLAB/R2021b/patents.txt">Patents</a></li>
+                                    <li class="footernav_help"><a href="C:/Program Files/MATLAB/R2021b/license_agreement.txt">Terms of Use</a></li>
+                                </ul>
+                                <div class="copyright">&copy; 1994-2022 The MathWorks, Inc.</div>
+                            </div>
+                        </div>
+                    </div>
+
+        <script type="text/javascript">
+
+$(document).ready( setTimeout( function () {
+                   $(".expandAllLink").trigger('click');
+            }, 50 ) );
+
+        </script>
+        
+</body>
+</html>

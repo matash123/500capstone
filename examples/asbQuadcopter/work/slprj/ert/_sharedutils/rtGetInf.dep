@@ -1,0 +1,11 @@
+rtGetInf.o rtGetInf.o: \
+ C:/Users/navin/MATLAB/Projects/examples/asbQuadcopter/work/slprj/ert/_sharedutils/rtGetInf.c \
+ C:/Users/navin/MATLAB/Projects/examples/asbQuadcopter/work/slprj/ert/_sharedutils/rtGetInf.h \
+ C:/Users/navin/MATLAB/Projects/examples/asbQuadcopter/work/slprj/ert/_sharedutils/rtwtypes.h \
+ C:/Users/navin/MATLAB/Projects/examples/asbQuadcopter/work/slprj/ert/_sharedutils/rt_nonfinite.h
+
+C:/Users/navin/MATLAB/Projects/examples/asbQuadcopter/work/slprj/ert/_sharedutils/rtGetInf.h:
+
+C:/Users/navin/MATLAB/Projects/examples/asbQuadcopter/work/slprj/ert/_sharedutils/rtwtypes.h:
+
+C:/Users/navin/MATLAB/Projects/examples/asbQuadcopter/work/slprj/ert/_sharedutils/rt_nonfinite.h:

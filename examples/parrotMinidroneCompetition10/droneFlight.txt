@@ -1,0 +1,96 @@
+Memory from 0x8000 to 0x1f7000 locked
+Memory from 0x1ff000 to 0x204000 locked
+/tmp/.dragon-prog.lock locked.
+Setting PWM frequency: reg value 0x0
+INIT libVision with [160 x 120]
+rsedu_control(): Control processing thread id = 1081959520 
+rsedu_control(): Control thread policy = 2 pri=32
+rsedu_control(): Battery output voltage Integrated:  4.11 V - 100 percents
+rsedu_control(): used: 0, users: 0, gyrotemp 45.362354, acctemp 0.000000, presstmp 36.330002 
+rsedu_control(): Waiting for optical flow connection...
+rsedu_control(): Got optical flow connection, 61!
+create_referencevalserver_thread(): stack size before reference value thread creation 8388608 err=0
+create_referencevalserver_thread(): reference value server thread id = 1081959520 
+create_referencevalserver_thread(): reference value server  policy = 2 pri=32
+create_referencevalserver_thread(): Reference Server Thread created successfully
+create_referencevalserver_thread(): stacksize after reference thread creation 16384 
+rsedu_control(): Waiting for connection request from host! 
+
+
+ **** Sensor Values **** 
+rsedu_control(): sonar altitude: 0.000000meters, pressure: 86174.289062pascal, gyrotemp: 45.327061celsius
+rsedu_control(): gyro x: -0.013875rad/s, y: -0.010583rad/s, z: -0.008466rad/s
+rsedu_control(): accel x: 0.116951m/s2, y: -0.148854m/s2, z: -9.996668m/s2
+rsedu_control(): Battery output voltage Integrated:  4.12V - 100 percents
+rsedu_of(): SUCCESS optical flow FIFO exists! 
+keyboardserver_thread(): Entered the Keyboard Server thread... 
+keyboardserver_thread(): Successfully created socket... 
+keyboardserver_thread(): Bind socket... 
+keyboardserver_thread(): Bind completed .. listening to the socket !
+create_image_thread(): Image thread policy = 2 and priority=10
+create_image_thread(): Image thread inherit scheduler option error=0
+create_image_thread(): value of detach status=0
+create_image_thread(): stacksize before thread creation err=0
+create_image_thread(): value of scheduler policy status=0
+create_image_thread(): value of scheduler param status=0
+create_image_thread(): Image Thread created successfully
+keyboardserver_thread(): Received connection from the host! 
+keyboardserver_thread(): Successfully created GUI socket... 
+keyboardserver_thread(): Bind GUI socket...
+keyboardserver_thread(): Bind completed .. listening to the GUI socket !
+rsedu_control(): Waiting for takeoff command from host! 
+ TakeOff Sequence Initiated !! 
+The flight duration is set to Simulation Stop Time of = 100 seconds and powergain is set to = 70
+rsedu_control(): Simulink model init started! 
+rsedu_control(): Simulink model init completed! 
+rsedu_control(): Initializing Calibration Data! 
+rsedu_control(): Drone Motors Activated! 
+keyboardserver_thread(): Received connection to GUI from the host! 
+rsedu_control(): Calibrating Data . . . 
+rsedu_control(): Batterylevel: 100.000000
+rsedu_control(): Sensorcal: 0.098607 :: -0.155958 :: -10.000040 :: -0.012315 :: -0.011540 :: -0.008624 :: 86174.375000 :: 1.389167 
+ *************************************** Data_block_start *************************************************** 
+rsedu_control(): Motors Powered. Ready for Take-Off ! 
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 60ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 75ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 73ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 67ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 64ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 82ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 85ms
+rsedu_of(): flow: (-0.219600, 0.299401, 0.000000, 1.000000, 0.500000)
+rsedu_vision(): Entered... 
+
+ **** Sensor Values when counter = 600 **** 
+rsedu_control(): sonar altitude: 0.435601meters, pressure: 86170.875000pascal, gyrotemp: 45.550587celsius
+rsedu_control(): gyro x: -0.018149rad/s, y: -0.024353rad/s, z: 0.021207rad/s
+rsedu_control(): accel x: 2.232120m/s2, y: -0.172775m/s2, z: -10.215232m/s2
+rsedu_control(): Battery output voltage Integrated:  3.98V - 100 percents
+rsedu_control(): motor values : 473.529114 -417.701874 456.520630 -414.687927
+rsedu_vision(): Exited. Time taken to process the image = 95ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 95ms
+rsedu_vision(): Entered... 
+rsedu_vision(): Exited. Time taken to process the image = 93ms
+rsedu_vision(): Entered... 
+ Emergency Landing Sequence Initiated !! 
+rsedu_control(): Flight abort request: shutting down motors now
+rsedu_control(): Flight Completed after 661 cycles ... DONE 
+RSEDU_image_processing: Average image processing time is 78ms 
+rsedu_control(): Good night! 
+ 
+Shut down and clean up
+----------------------
+Setting PWM frequency: reg value 0x0
+Setting PWM 0 0 0 0
+Flushing filesystems...
+    flush done.
+Dragon returned = 
+############################

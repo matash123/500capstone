@@ -1,0 +1,5 @@
+MW_TCPSendReceive.o MW_TCPSendReceive.o: \
+ C:/ProgramData/MATLAB/SupportPackages/R2021b/toolbox/target/supportpackages/shared_linuxservices/src/TCPSendReceive/MW_TCPSendReceive.c \
+ C:/PROGRA~3/MATLAB/SUPPOR~1/R2021b/toolbox/target/SUPPOR~1/SHARED~1/include/MW_TCPSendReceive.h
+
+C:/PROGRA~3/MATLAB/SUPPOR~1/R2021b/toolbox/target/SUPPOR~1/SHARED~1/include/MW_TCPSendReceive.h:
